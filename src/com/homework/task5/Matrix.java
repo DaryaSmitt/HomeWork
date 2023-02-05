@@ -16,8 +16,15 @@ public class Matrix {
                 ++number;
             }
         }
-        System.out.println(MATRIX);
+        for (String[] array : MATRIX) {
+            for (String anInt : array) {
+                System.out.printf(" " + anInt);
+            }
+            System.out.println();
+        }
     }
+
+
 
     public static void start() {
         createMatrix();
