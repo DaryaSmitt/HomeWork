@@ -3,45 +3,45 @@ package com.homework.task3;
 import java.util.Scanner;
 
 public class Rainbow {
-    public static final String КРАСНЫЙ = "Red";
-    public static final String ОРАНЖЕВЫЙ = "Orange";
-    public static final String ЖЕЛТЫЙ = "Yellow";
-    public static final String ЗЕЛЕНЫЙ = "Green";
-    public static final String ГОЛУБОЙ = "Cyan";
-    public static final String СИНИЙ = "Blue";
-    public static final String ФИОЛЕТОВЫЙ = "Violet";
+    public static final String RED = "Red";
+    public static final String ORANGE = "Orange";
+    public static final String YELLOW = "Yellow";
+    public static final String GREEN = "Green";
+    public static final String CYAN = "Cyan";
+    public static final String BLUE = "Blue";
+    public static final String VIOLET = "Violet";
 
-    public static final int Red = 1;
-    public static final int Orange = 2;
-    public static final int Yellow = 3;
-    public static final int Green = 4;
-    public static final int Cyan = 5;
-    public static final int Blue = 6;
-    public static final int Violet = 7;
+    public static final int RED1 = 1;
+    public static final int ORANGE2 = 2;
+    public static final int YELLOW3 = 3;
+    public static final int GREEN4 = 4;
+    public static final int CYAN5 = 5;
+    public static final int BLUE6 = 6;
+    public static final int VIOLET7 = 7;
 
     public void OneColor(int number) {
 
         switch (number) {
             case 1:
-                System.out.println(КРАСНЫЙ);
+                System.out.println(RED);
                 break;
             case 2:
-                System.out.println(ОРАНЖЕВЫЙ);
+                System.out.println(ORANGE);
                 break;
             case 3:
-                System.out.println(ЖЕЛТЫЙ);
+                System.out.println(YELLOW);
                 break;
             case 4:
-                System.out.println(ЗЕЛЕНЫЙ);
+                System.out.println(GREEN);
                 break;
             case 5:
-                System.out.println(ГОЛУБОЙ);
+                System.out.println(CYAN);
                 break;
             case 6:
-                System.out.println(СИНИЙ);
+                System.out.println(BLUE);
                 break;
             case 7:
-                System.out.println(ФИОЛЕТОВЫЙ);
+                System.out.println(VIOLET);
                 break;
             default:
                 System.out.println("Ошибка ввода!");
@@ -81,32 +81,32 @@ public class Rainbow {
     public void TwoColor(int color1, int color2) {
 
         switch (color1) {
-            case Red:
-                System.out.println(КРАСНЫЙ);
+            case RED1:
+                System.out.println(RED);
                 OneColor(color2);
                 break;
-            case Orange:
-                System.out.println(ОРАНЖЕВЫЙ);
+            case ORANGE2:
+                System.out.println(ORANGE);
                 OneColor(color2);
                 break;
-            case Yellow:
-                System.out.println(ЖЕЛТЫЙ);
+            case YELLOW3:
+                System.out.println(YELLOW);
                 OneColor(color2);
                 break;
-            case Green:
-                System.out.println(ЗЕЛЕНЫЙ);
+            case GREEN4:
+                System.out.println(GREEN);
                 OneColor(color2);
                 break;
-            case Cyan:
-                System.out.println(ГОЛУБОЙ);
+            case CYAN5:
+                System.out.println(CYAN);
                 OneColor(color2);
                 break;
-            case Blue:
-                System.out.println(СИНИЙ);
+            case  BLUE6:
+                System.out.println(BLUE);
                 OneColor(color2);
                 break;
-            case Violet:
-                System.out.println(ФИОЛЕТОВЫЙ);
+            case VIOLET7:
+                System.out.println(VIOLET);
                 OneColor(color2);
                 break;
             default:
