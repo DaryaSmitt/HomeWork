@@ -6,8 +6,6 @@ public class Cat {
     private String name;
     private int age;
     int counter = 0;
-    public String randomName;
-    public int randomAge;
     private RandomNameAge randomAgeName = new RandomNameAge();
 
     public Cat(String name, int age) {
@@ -48,8 +46,7 @@ public class Cat {
         for (int i = 0; i < cats.length; i++) {
             cats[i] = new Cat(randomAgeName.randomName(), randomAgeName.randomAge());
         }
-        for (Cat cat :
-                cats)
+        for (Cat cat : cats)
             System.out.println(cat.toString());
         System.out.println();
     }
